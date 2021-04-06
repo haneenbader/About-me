@@ -8,10 +8,12 @@ let b = prompt('do you think im happy ?')
 b = b.toUpperCase();
 switch (b) {
     case ('YES'):
+    case ('Y'):
         alert('im happy');
         score++;
         break;
     case ('NO'):
+        case ('N'):
         alert('wrong , im happy');
         break;
     default:
@@ -23,10 +25,12 @@ let c = prompt('my  age is greater than 20 ? ')
 c = c.toLowerCase();
 switch (c) {
     case ('yes'):
+    case ('y'):
         alert('my age is 27 years');
         score++;
         break;
     case ('no'):
+    case ('n'):
         alert('ok , im 27 years old ');
         break;
     default:
@@ -38,10 +42,12 @@ let d = prompt('i live  in jordan? ')
 d = d.toLowerCase();
 switch (d) {
     case ('yes'):
+        case ('y'):
         alert('great answer');
         score++;
         break;
     case ('no'):
+        case ('n'):
         alert('i live in jordan ');
         break;
     default:
@@ -53,10 +59,12 @@ let e = prompt('do you think im an engineer ?')
 e = e.toLowerCase();
 switch (e) {
     case ('yes'):
+        case ('y'):
         alert('yes im an engineer');
         score++;
         break;
     case ('no'):
+        case ('n'):
         alert('im a civil engineer');
         break;
     default:
@@ -68,10 +76,12 @@ let a = prompt('do yo think i love handmadecraft?')
 a = a.toLowerCase();
 switch (a) {
     case ('yes'):
+        case ('y'):
         alert('you answer is true');
         score++;
         break;
     case ('no'):
+        case ('n'):
         alert('you answer is false');
         break;
     default:
@@ -117,14 +127,6 @@ alert('me best colors is ' + myColor);
 
 alert('your score is ' + score ) ;
 alert('welcom ' + userName);    
-
-
-
-
-
-
-
-
 
 
 
