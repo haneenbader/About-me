@@ -114,24 +114,26 @@ function question5(){
 
 
 
-
-let guessNmber = prompt(' guess !! what is the  number in my mind ?');
-guessNmber = parseInt(guessNmber);
-for (let i = 1; i < 4; i++) {
-  if (parseInt(guessNmber) === 20) {
-    alert('great , the number is 20 ');
-    score++;
-    break;
-  } else if (parseInt(guessNmber) < 20) {
-    alert('too low');
-    guessNmber = prompt('guess another number greater than this number');
-  } else if (parseInt(guessNmber) > 20) {
-    alert('too high');
-    guessNmber = prompt('guess another number less than this number');
-
+let guessNmber = 'null';
+function question6 (){
+  guessNmber = prompt(' guess !! what is the  number in my mind ?');
+  guessNmber = parseInt(guessNmber);
+  for (let i = 1; i < 4; i++) {
+    if (parseInt(guessNmber) === 20) {
+      alert('great , the number is 20 ');
+      score++;
+      break;
+    } else if (parseInt(guessNmber) < 20) {
+      alert('too low');
+      guessNmber = prompt('guess another number greater than this number');
+    } else if (parseInt(guessNmber) > 20) {
+      alert('too high');
+      guessNmber = prompt('guess another number less than this number');
+    }
   }
-}
-alert('20 is the correct answer');
+  alert('20 is the correct answer');
+} question6();
+
 
 
 let myColor = ['red', 'green'];
