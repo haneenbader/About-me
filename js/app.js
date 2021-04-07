@@ -89,23 +89,28 @@ function question4(){
 }
 question4();
 
-//let a =
-let a = prompt('do yo think i love handmadecraft?');
-//console.log(a);
-a = a.toLowerCase();
-switch (a) {
-case ('yes'):
-case ('y'):
-  alert('you answer is true');
-  score++;
-  break;
-case ('no'):
-case ('n'):
-  alert('you answer is false');
-  break;
-default:
-  alert('ok no problem');
-}
+
+let a = 'null';
+function question5(){
+
+  a = prompt('do yo think i love handmadecraft?');
+  //console.log(a);
+  a = a.toLowerCase();
+  switch (a) {
+  case ('yes'):
+  case ('y'):
+    alert('you answer is true');
+    score++;
+    break;
+  case ('no'):
+  case ('n'):
+    alert('you answer is false');
+    break;
+  default:
+    alert('ok no problem');
+  }
+} question5();
+
 
 
 
