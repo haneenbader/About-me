@@ -11,6 +11,6 @@ i added the score to the correct user answer
 
 
 
-
+Haneen was the Navigtator on : we add function for 7th Question
 Qusai was driver on : we add a function for 7th Question 
 https://github.com/haneenbader/About-me.
