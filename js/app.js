@@ -135,24 +135,27 @@ function question6 (){
 } question6();
 
 
+let myColor= 'null';
+function question7(){
+  myColor = ['red', 'green'];
+  for (let c=0 ; c<6 ; c++){
+    let userColor = prompt('what do you think  the color i love it ?  ');
+    userColor = userColor.toLowerCase();
 
-let myColor = ['red', 'green'];
-for (let c=0 ; c<6 ; c++){
-  let userColor = prompt('what do you think  the color i love it ?  ');
-  userColor = userColor.toLowerCase();
-
-  if(userColor === myColor[0] || userColor === myColor[1] ){
-    alert('its right this is one of my colors');
-    score++;
-    break;
-  }else {
-    alert('its wrong this is not one of my colors');
+    if(userColor === myColor[0] || userColor === myColor[1] ){
+      alert('its right this is one of my colors');
+      score++;
+      break;
+    }else {
+      alert('its wrong this is not one of my colors');
+    }
   }
-}
-alert('me best colors is ' + myColor);
+  alert('me best colors is ' + myColor);
 
-alert('your score is ' + score ) ;
-alert('welcom ' + userName);
+  alert('your score is ' + score ) ;
+  alert('welcom ' + userName);
+
+} question7();
 
 
 
