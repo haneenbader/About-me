@@ -48,25 +48,25 @@ function question2(){
 question2();
 
 let d ='null';
-//function question3(){
-d = prompt('i live  in jordan? ');
-//console.log(d);
-d = d.toLowerCase();
-switch (d) {
-case ('yes'):
-case ('y'):
-  alert('great answer');
-  score++;
-  break;
-case ('no'):
-case ('n'):
-  alert('i live in jordan ');
-  break;
-default:
-  alert('welcome');
+function question3(){
+  d = prompt('i live  in jordan? ');
+  //console.log(d);
+  d = d.toLowerCase();
+  switch (d) {
+  case ('yes'):
+  case ('y'):
+    alert('great answer');
+    score++;
+    break;
+  case ('no'):
+  case ('n'):
+    alert('i live in jordan ');
+    break;
+  default:
+    alert('welcome');
+  }
 }
-//}
-//question3();
+question3();
 
 let e ='null';
 //function question4(){
