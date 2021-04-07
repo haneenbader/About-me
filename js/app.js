@@ -45,7 +45,7 @@ function question2(){
   }
   return (c);
 }
-console .log (question2());
+question2();
 
 let d ='null';
 //function question3(){
