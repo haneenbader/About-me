@@ -69,25 +69,25 @@ function question3(){
 question3();
 
 let e ='null';
-//function question4(){
-e = prompt('do you think im an engineer ?');
-//console.log(e);
-e = e.toLowerCase();
-switch (e) {
-case ('yes'):
-case ('y'):
-  alert('yes im an engineer');
-  score++;
-  break;
-case ('no'):
-case ('n'):
-  alert('im a civil engineer');
-  break;
-default:
-  alert('ok no problem');
+function question4(){
+  e = prompt('do you think im an engineer ?');
+  //console.log(e);
+  e = e.toLowerCase();
+  switch (e) {
+  case ('yes'):
+  case ('y'):
+    alert('yes im an engineer');
+    score++;
+    break;
+  case ('no'):
+  case ('n'):
+    alert('im a civil engineer');
+    break;
+  default:
+    alert('ok no problem');
+  }
 }
-//}
-//question4();
+question4();
 
 //let a =
 let a = prompt('do yo think i love handmadecraft?');
