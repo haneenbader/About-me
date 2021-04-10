@@ -1,11 +1,12 @@
 'use strict';
+
 let score = 0 ;
 let userName = prompt('what is your name ?');
 alert('welcom ' + userName + ' in my webpage');
+
 let b = 'null';
 function question1 (){
   b= prompt('do you think im happy ?');
-  //console.log(b);
   b = b.toUpperCase();
   switch (b) {
   case ('YES'):
@@ -19,16 +20,14 @@ function question1 (){
     break;
   default:
     alert('ok no problem');
-
   }
-
 }question1();
-console.log(b);
+
+
 
 let c = 'null';
 function question2(){
   c= prompt('my  age is greater than 20 ? ');
-  //console.log(c);
   c = c.toLowerCase();
   switch (c) {
   case ('yes'):
@@ -47,10 +46,10 @@ function question2(){
 }
 question2();
 
+
 let d ='null';
 function question3(){
   d = prompt('i live  in jordan? ');
-  //console.log(d);
   d = d.toLowerCase();
   switch (d) {
   case ('yes'):
@@ -68,10 +67,10 @@ function question3(){
 }
 question3();
 
+
 let e ='null';
 function question4(){
   e = prompt('do you think im an engineer ?');
-  //console.log(e);
   e = e.toLowerCase();
   switch (e) {
   case ('yes'):
@@ -92,26 +91,22 @@ question4();
 
 let a = 'null';
 function question5(){
-
   a = prompt('do yo think i love handmadecraft?');
-  //console.log(a);
   a = a.toLowerCase();
   switch (a) {
   case ('yes'):
   case ('y'):
-    alert('you answer is true');
+    alert('your answer is true');
     score++;
     break;
   case ('no'):
   case ('n'):
-    alert('you answer is false');
+    alert('your answer is false');
     break;
   default:
     alert('ok no problem');
   }
 } question5();
-
-
 
 
 let guessNmber = 'null';
@@ -158,35 +153,6 @@ function question7(){
 } question7();
 
 
-
-
-
-
-
-//let myColor = ['red', 'green', 'black', 'yellow'];
-
-//for (let x = 1; x <= 6; x++) {
-
-//   let userColor = prompt('what do you think  the color i love it ?  ');
-//  userColor = userColor.toLowerCase();
-//  for (let n = 0; n < myColor.length; n++) {
-//      if (userColor === myColor[n]) {
-//          alert(' its right this is one of my colors');
-//         break;
-//     } else if (userColor !== myColor[n]) {
-//
-//      }
-//      break;
-//  }
-//
-//userColor = prompt(' enter another  color do you think i love it ? ');
-
-
-//}
-
-
-
-//alert('me best colors is ' + myColor);
 
 
 
